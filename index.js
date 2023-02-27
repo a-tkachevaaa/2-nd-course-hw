@@ -1,3 +1,53 @@
+//2.4 Циклы
+
+/*Задание 1
+ let hi=0
+while (hi<2) {
+  console.log ("Привет");
+  hi++;
+ }
+*/
+
+/*Задание 2
+let a=1;
+while (a<=5) {
+  console.log (a);
+  a++;
+}
+*/
+
+/*Задание 3
+let a=7;
+while (a<=22) {
+  console.log (a);
+  a++;
+}
+*/
+
+/*Задание 4
+const obj= {
+  "Коля":"200",
+  "Вася":"300",
+  "Петя":"400",
+};
+for (let name in obj) {
+  console.log (`${name} - зарплата ${obj[name]} долларов`);
+};
+*/
+
+/*Задание 5
+let num=0;
+for (let n = 1000; n>50; n/=2, num++) {
+  console.log (num,n);
+}
+*/
+
+/*Задание 6
+for (let Friday = 3; Friday<=31; Friday++) {
+  Friday+=7;
+  console.log (`Сегодня пятница, ${Friday}-е число. Необходимо подготовить отчет.`);
+}
+*/
 
 //2.3 Условное ветвление 
 
@@ -9,6 +59,7 @@ if (enterPassword===password) {
 } else {
 	alert("Пароль введен неправильно");
 }
+*/
 
 /*Задание 2
 let c=prompt("Введите число");
@@ -36,8 +87,6 @@ let a =  Number('2');
 let b = Number('3');
 alert(a + b);
 */
-
-
 
 /*Задание 5
 let mounth = prompt("Укажите месяц");
