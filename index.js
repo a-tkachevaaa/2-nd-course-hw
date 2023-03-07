@@ -1,3 +1,111 @@
+//2.5 Функции
+/*Задание 1
+function number(a,b) {
+  if (a>b) {
+    return b;
+  } 
+  else if (a<b) {
+    return a;
+  }
+  else {
+    return a;
+  }
+}
+console.log (number(8,8));
+*/
+
+/*Задание 2
+function showMessage () {
+let number=prompt("Ввведите число"); 
+  if (number % 2 == 0) {
+    alert ('Число четное');
+  } 
+  else {
+    alert ('Число нечетное');
+  }
+}
+showMessage ();
+*/
+
+/*Задание 3.1
+let a = Number(prompt("Ввведите число"));
+
+function calc(a) {
+  return a**2;
+}
+
+console.log (`Квадрат числа равен ${calc(a)}`);
+*/
+
+ /*Задание 3.2
+let a = Number(prompt("Ввведите число"));
+
+function calc(a) {
+  return alert(a**2);
+}
+
+calc(a);
+*/
+
+/*Задание 4
+function user () {
+  let question=prompt("Сколько вам лет?"); 
+    if (question<=0) {
+      alert ("Вы ввели неправильное значение");
+    } 
+    else if (question>0 && question<=12) {
+      alert ("Привет, друг!");
+    }
+    else {
+      alert ("Добро пожаловать!");
+    }
+  }
+  user ();
+ */
+
+/*Задание 5
+  function enterNumber (a, b) { 
+    if(!isNaN(a) && !isNaN(b)) { 
+       return alert(a * b); 
+}    else { 
+        alert ("Одно или оба значения не являются числом"); 
+}
+}
+enterNumber (6, 6);
+*/
+
+/*Задание 6
+function enterNumber () {
+  let number=Number(prompt("Введите число")); 
+    if (!isNaN(number)) {
+      return alert(`${number} в кубе равняется ${number**3}`);
+    } 
+    else {
+      alert ("Переданный параметр не является числом");
+    }
+  }
+  enterNumber ();
+*/
+
+function season () {
+  let number=Number(prompt("Укажите месяц времени года — число от 1-12."));
+    if (number===1 || number===2 || number===12) {
+      return alert("Время года зима");
+    } 
+    else if (number===3 || number===4 || number===5) {
+      return alert ("Время года весна");
+    }
+    else if (number===6 || number===7 ||number===8) {
+      return alert ("Время года лето");
+    }
+    else if (number===9 || number===10 ||number===11) {
+      return alert ("Время года осень");
+    }
+    else {
+      alert ("Вы ввели параметр который не относится ко времени года");
+    }
+}
+
 //2.4 Циклы
 
 /*Задание 1

@@ -260,6 +260,12 @@ body {
     gap: 64px;
     flex-wrap: wrap;
   }
+  .games__mobile {
+    flex-direction: column-reverse;
+    align-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+  }
   .games__title {
     font-weight: 700;
     font-size: 32px;
