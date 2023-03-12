@@ -1,3 +1,102 @@
+//2.6 Массивы
+
+/*Задание 1
+const numbs = [1, 5, 4, 10, 0, 3];
+for (let i = 0; i < numbs.length; i++) {
+  if (numbs[i]===10) break;
+  console.log (numbs[i]);
+}
+*/
+
+/*Задание 2
+let numbs=[1, 5, 4, 10, 0, 3];
+numbs = numbs.includes (4);
+console.log (numbs);
+*/
+
+/*Задание 3
+let numbs=[1, 3, 5, 10, 20];
+numbs=numbs.join (" ");
+console.log (numbs);
+ */
+
+/*Задание 4
+let numbs = [
+[1, 1, 1],
+[1, 1, 1],
+[1, 1, 1]
+];
+for (let numbsI of numbs) {
+  for (let element of numbsI) {
+    console.log (element); //найдёт все элементы многомерного массива
+  }
+  }
+  */
+
+/*Задание 5
+  let numbs=[1, 1, 1];
+  numbs.push (2, 2, 2);
+  console.log (numbs);
+*/
+
+/*Задание 6
+let numbs=[9, 8, 7, 'a', 6, 5];
+numbs.sort();
+numbs.pop ('a');
+console.log (numbs);
+  console.log (numbs);
+*/
+
+/*Задание 7
+let numbs=[9, 8, 7, 6, 5];
+let enterNumbers=numbs.includes(Number(prompt("Введите число от 1 до 10")));
+if (enterNumbers===true) {
+  alert("Данное число есть в массиве");
+} else {
+  alert("Данное число отсутсвует в массиве");
+}
+*/
+
+/*Задание 8 (1-й способ)
+function reverseString (str){
+  return str.split("").reverse ().join("");
+}
+console.log(reverseString ('abcdef'))
+
+Задание 8 (2-й способ)
+let str='abcdef';
+str.split ("");
+console.log (str.split(""));
+str.split("").reverse ();
+console.log (str.split("").reverse ());
+str.split("").reverse ().join("");
+console.log (str.split("").reverse ().join(""));
+*/
+
+/*Задание 9 
+let numbsMulti =[
+  [1, 2, 3,],
+  [4, 5, 6],
+  ];
+  let sign=[","];
+  numbsMulti=numbsMulti.join(sign);
+  console.log (numbsMulti) //Обединение многомерного массива в один
+*/
+
+/*Задание 10
+const numbs = [1, 2, 3, 4, 5];
+for (let i = 0; i < numbs.length; i++) {
+  if (numbs[i]+numbs[i+1]);
+  console.log (numbs[i]+numbs[i+1]);
+}
+*/
+
+/*Задание 11
+*/
+
+/*Задание 12
+*/
+
 //2.5 Функции
 /*Задание 1
 function number(a,b) {
