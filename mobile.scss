@@ -119,6 +119,13 @@ line-height: 22px;
   align-items: center;
   gap: 64px;
   flex-wrap: wrap;
+
+  &__mobile{
+    flex-direction: column-reverse;
+    align-content: center;
+    display: flex;
+    flex-wrap: nowrap;
+  }
   &__title {
     font-weight: 700;
 font-size: 32px;
@@ -156,7 +163,6 @@ color: #ffffff;
   &__icon--mob {
     width: 344px;
     padding-bottom: 85px;
-    
   }
   }
 }
