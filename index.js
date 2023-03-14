@@ -44,7 +44,6 @@ let numbs=[9, 8, 7, 'a', 6, 5];
 numbs.sort();
 numbs.pop ('a');
 console.log (numbs);
-  console.log (numbs);
 */
 
 /*Задание 7
@@ -83,11 +82,11 @@ let numbsMulti =[
   console.log (numbsMulti) //Обединение многомерного массива в один
 */
 
-/*Задание 10
+/*Задание 10 
 const numbs = [1, 2, 3, 4, 5];
 for (let i = 0; i < numbs.length; i++) {
-  if (numbs[i]+numbs[i+1]);
-  console.log (numbs[i]+numbs[i+1]);
+ if (numbs[i + 1]) 
+   console.log (numbs[i]+numbs[i+1]);
 }
 */
 
