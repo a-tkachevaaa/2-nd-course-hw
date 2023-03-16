@@ -1,3 +1,129 @@
+//2.7 Встроенные объекты
+/*Задание 1
+const str="js";
+str.toUpperCase();
+console.log (str.toUpperCase());
+*/
+
+/*Задание 2
+const str = ['Кошка', 'Кит', 'Комар', 'Носорог'];
+const searchStart = 'ко';
+
+str.forEach((str) => {
+	// проходимся по массиву str и проверяем каждый элемент на наличие 
+	// подстроки 'ко' в начале названия, не забыв привести элемент и
+	// искомую подстроку к одному регистру
+	if (str.toLowerCase().startsWith(searchStart.toLowerCase())) {
+		console.log(str);
+	}
+});
+
+const str = ['Кошка', 'Кит', 'Комар', 'Носорог'];
+const searchStart = 'ко';
+
+function findStr(arr, str) {
+  return arr.filter(element =>
+    element.toLowerCase().startsWith(str.toLowerCase()))
+}
+
+console.log(findStr(str, searchStart));
+
+console.log(findStr(str, searchStart));
+*/
+
+/*Задание 3
+const number=32.58884;
+console.log (Math.floor(32.58884),Math.ceil(32.58884),(Math.round(32.58884)));
+ */
+
+/*Задание 4
+const number=[52, 53, 49, 77, 21, 32];
+Math.min(52, 53, 49, 77, 21, 32);
+console.log(Math.min(52, 53, 49, 77, 21, 32), Math.max(52, 53, 49, 77, 21, 32));
+ */
+
+/*Задание 5
+function getRandomIntInclusive(minValue,maxValue) {
+
+  return Math.round(Math.random() * (maxValue - minValue)) + minValue; 
+}
+console.log(getRandomIntInclusive(1,10))
+*/
+
+/*Задание 6
+function getRandomArrNumbers(randomNumber) {
+  let sixthArray = [];
+  let arrLength = Math.floor(randomNumber / 2)
+  for (let i = 0; i < arrLength; i++) {
+      sixthArray.push(Math.round(Math.random() * randomNumber));
+  }
+  console.log(sixthArray);
+}
+getRandomArrNumbers(Number(prompt('Введите любое число')));
+*/
+
+/*Задание 7
+let RandomValue = (maxValue, minValue) => {
+  let RandomResult = Math.round(Math.random() * (maxValue - minValue) + minValue);
+  console.log(RandomResult);
+}
+RandomValue(Number(prompt('Введите любое число')), Number(prompt('Введите любое число, значение которого меньше, чем у первого числа')));
+*/
+
+/*Задание 8 
+let myDate = new Date("15 March 2023");
+console.log(myDate); 
+// Wed Mar 15 2023 00:00:00 GMT+0300 (Москва, стандартное время)
+*/
+
+/*Задание 9 
+let currentDate=new Date("15 March 2023");
+console.log(currentDate);
+currentDate.setDate(currentDate.getDate() + 73);
+console.log(currentDate)
+*/
+
+/*Задание 10 Комментарии из теории дз (оставила, чтобы не забыть)
+// создадим массив, в который занесем дни недели на русском
+// отсчет в JS начинается с воскресенья - 0
+const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг", "Пятница", "Суббота"];
+// создадим массив, где будем хранить названия месяцев на русском
+const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
+"Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+
+let myDate = new Date(); // здесь мы получаем текущую дату
+let fullDate = "Сегодня: " + myDate.getDate() + // getDate возвращает число
+" " + months[myDate.getMonth()] + // getMonth возвращает номер месяца, который мы можем использовать в качестве индекса для массива months
+" " + myDate.getFullYear() + // getFullYear возвращает год
+", " + days[myDate.getDay()] + 
+" " + myDate.getHours() +
+":" + myDate.getMinutes() +
+":" + myDate.getSeconds();// getDay возвращает номер дня недели, который мы используем в качестве индекса для массива days
+
+console.log(fullDate);
+*/
+
+/*Задание 11 
+function gameWord() {
+let game = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+game = list.sort(() => Math.random() - 0.5);
+alert(game)
+let elementOne=(prompt("Чему равнялся первый элемент массива?"))
+elementOne=elementOne.toLowerCase()
+let elementTwo=(prompt("Чему равнялся последний элемент массива?"))
+elementTwo=elementTwo.toLowerCase()
+if (elementOne.toLowerCase()===game[0] && elementTwo.toLowerCase()===game[6]) {
+  return alert("Вы угадали");
+} 
+else if (elementOne.toLowerCase()===game[0]||elementTwo.toLowerCase()===game[6]) {
+  return alert ("Вы угадали один из двух правильных ответов");
+}
+else {
+  return alert ("Вы не угадали ни одного правильного ответа");
+}
+}
+function gameWord()
+*/
 //2.6 Массивы
 
 /*Задание 1
@@ -184,7 +310,7 @@ function enterNumber () {
   }
   enterNumber ();
 */
-
+/*
 function season () {
   let number=Number(prompt("Укажите месяц времени года — число от 1-12."));
     if (number===1 || number===2 || number===12) {
@@ -203,7 +329,7 @@ function season () {
       alert ("Вы ввели параметр который не относится ко времени года");
     }
 }
-
+*/
 //2.4 Циклы
 
 /*Задание 1
