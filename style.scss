@@ -55,8 +55,7 @@ body {
 }
 
 .product-content__item:hover {
-    border: 3px solid #44D2FF;
-
+  border: 3px solid #44d2ff;
 }
 
 .product-content {
@@ -108,34 +107,31 @@ body {
 }
 
 .content-box__button:hover {
-    background:#EB443F;
-    cursor: url(/img/cursor.svg),auto;
+  background: #eb443f;
+  cursor: url(/img/cursor.svg), auto;
 }
 
 .games {
-background: #000915;
-height: 800px;
-display: flex;
-align-items: center;
-gap: 135px;
-flex-wrap: nowrap;
+  background: #000915;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  gap: 135px;
+  flex-wrap: nowrap;
 
   &__title {
     font-weight: 700;
     font-size: 48px;
     line-height: 59px;
     color: #ffffff;
-  
   }
   &__article {
     font-weight: 300;
     font-size: 18px;
     line-height: 32px;
     color: #ffffff;
-   
   }
-  &__button
-   {
+  &__button {
     width: 234.06px;
     height: 48.6px;
     background: #9c0332;
@@ -146,7 +142,7 @@ flex-wrap: nowrap;
     line-height: 22px;
     color: #ffffff;
     box-sizing: border-box;
-   }
+  }
   &__block {
     display: flex;
     flex-direction: column;
@@ -154,8 +150,8 @@ flex-wrap: nowrap;
   }
 }
 .games__button:hover {
-    background:#EB443F;
-     cursor: url(/img/cursor.svg),auto;
+  background: #eb443f;
+  cursor: url(/img/cursor.svg), auto;
 }
 @import "vars";
 @import "mobile";

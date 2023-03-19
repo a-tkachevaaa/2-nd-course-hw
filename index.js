@@ -1,3 +1,71 @@
+
+//Промежуточный срез знаний
+/*Задача 1
+*/
+
+/*Задача 2
+const number=[2,2,2];
+let result=number.map(item=>(item**2));
+result = result.reduce((accumulator, currentValue) => accumulator + currentValue);
+console.log (result)
+*/
+
+/*Задача 3
+*/
+
+/*Задание 4
+function solution(item){
+  return (item.split("").reverse().join(""))
+  }
+console.log (solution("word"))
+*/
+
+/*Задание 5
+function addLength(str){
+  return str.split(" ").map( str => `${str} ${str.length}`)
+}
+console.log(addLength ('hello'))
+*/
+
+/*Задание 6
+*/
+
+/*Задание 7
+function numberOfLiters() {
+  let time=Number(prompt("Введите часы езды на велосипеде"));
+  return alert (Math.floor(time*0.5));
+}
+numberOfLiters()
+*/
+
+/*Задание 8 
+const number=[1,-2,3,-4,5]
+
+const transformed = number.map(function (num) {
+  if (num <= 0) {
+    return num/(-1)
+  } 
+    else if (num >= 0) {
+    return num/(-1)
+  }
+})
+console.log(transformed)
+*/
+
+
+/*Задание 9 НЕ РЕШЕНА, ПРИМЕР:
+function powersOfTwo(n){
+  var result = [];
+  for (var i = 0; i <= n; i++) {
+    result.push(Math.pow(2, i));
+  }
+  return result;
+}
+*/
+
+/*Задание 10
+ */
+
 //2.7 Встроенные объекты
 /*Задание 1
 const str="js";
@@ -28,7 +96,6 @@ function findStr(arr, str) {
 
 console.log(findStr(str, searchStart));
 
-console.log(findStr(str, searchStart));
 */
 
 /*Задание 3
@@ -124,8 +191,8 @@ else {
 }
 function gameWord()
 */
-//2.6 Массивы
 
+//2.6 Массивы
 /*Задание 1
 const numbs = [1, 5, 4, 10, 0, 3];
 for (let i = 0; i < numbs.length; i++) {
