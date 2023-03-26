@@ -1,0 +1,120 @@
+@media (max-width: 767px) {
+  .top {
+    height: 735px;
+  }
+
+  .center {
+    padding-left: calc(50% - 171px);
+    padding-right: calc(50% - 171px);
+  }
+
+  .product-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+  }
+
+  .product-box {
+    height: 1221px;
+    background: #000915;
+  }
+
+  .content-box {
+    padding-top: 238px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content-box__title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    color: #ffffff;
+    width: 343px;
+    text-align: center;
+  }
+
+  .content-box__article {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+    padding-top: 33px;
+    width: 343px;
+    text-align: center;
+  }
+
+  .content-box__button {
+    margin-top: 32px;
+    width: 234.06px;
+    height: 48.6px;
+    background: #9c0332;
+    border: transparent;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .games {
+    background: #000915;
+    height: 653px;
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    flex-wrap: wrap;
+
+    &__mobile {
+      flex-direction: column-reverse;
+      align-content: center;
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    &__title {
+      font-weight: 700;
+      font-size: 32px;
+      line-height: 39px;
+      color: #ffffff;
+      text-align: center;
+    }
+    &__article {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 22px;
+      color: #ffffff;
+      text-align: center;
+    }
+    &__button {
+      width: 234.06px;
+      height: 48.6px;
+      background: #9c0332;
+      border: transparent;
+      border-radius: 30px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 22px;
+      color: #ffffff;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    &__block {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+      align-items: center;
+      padding-top: 55px;
+    }
+    &__icon--mob {
+      width: 344px;
+      padding-bottom: 85px;
+    }
+  }
+}

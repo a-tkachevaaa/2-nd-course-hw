@@ -55,7 +55,7 @@ body {
 }
 
 .product-content__item:hover {
-  border: 3px solid #44D2FF;
+  border: 3px solid #44d2ff;
 }
 
 .product-content {
@@ -107,7 +107,7 @@ body {
 }
 
 .content-box__button:hover {
-  background: #EB443F;
+  background: #eb443f;
   cursor: url(/img/cursor.svg), auto;
 }
 
@@ -150,57 +150,17 @@ body {
 }
 
 .games__button:hover {
-  background: #EB443F;
+  background: #eb443f;
   cursor: url(/img/cursor.svg), auto;
 }
 
 @media (max-width: 767px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  a {
-    text-decoration: none;
-  }
-  body {
-    font-family: "Montserrat", sans-serif;
-  }
   .top {
     height: 735px;
-    background-image: url(img/background.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
   }
   .center {
     padding-left: calc(50% - 171px);
     padding-right: calc(50% - 171px);
-  }
-  .product-content__item--1 {
-    background-image: url(img/img1.svg);
-    border-radius: 16px;
-  }
-  .product-content__item--2 {
-    background-image: url(img/img2.svg);
-    border-radius: 16px;
-  }
-  .product-content__item--3 {
-    background-image: url(img/img3.svg);
-    border-radius: 16px;
-  }
-  .product-content__item {
-    grid-column: span 4;
-    height: 300px;
-    padding-left: 32px;
-    padding-bottom: 32px;
-    text-decoration: none;
-    display: flex;
-    align-items: flex-end;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    color: #ffffff;
-    box-sizing: border-box;
   }
   .product-content {
     display: grid;
